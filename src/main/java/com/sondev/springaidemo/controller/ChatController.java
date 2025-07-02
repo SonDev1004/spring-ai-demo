@@ -2,6 +2,7 @@ package com.sondev.springaidemo.controller;
 
 import com.sondev.springaidemo.dto.ChatRequest;
 import com.sondev.springaidemo.service.ChatService;
+import org.springframework.ai.chat.messages.SystemMessage;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
